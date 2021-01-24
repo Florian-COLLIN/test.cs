@@ -1,8 +1,12 @@
-using System.Windows.Forms;
 using System;
 
-public class HelloWorld {
-	public static void Main() {
-		MessageBox.Show("Hello, World!");
+namespace Test;
+{
+	class Programm
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Hello world\r!");
+		}
 	}
 }
